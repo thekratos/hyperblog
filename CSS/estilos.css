@@ -8,8 +8,6 @@ body
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
-=======
 #container
 {
     width: 70%;
@@ -19,14 +17,12 @@ body
 }
 #post{
 
+    background: white;
     padding: 1em;
     
 }
 #cabecera{
->>>>>>> a91714f350810d5cf39318fbafe6a41fab895157
 
-#cabecera
-{
     background: #37488b;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
@@ -61,12 +57,6 @@ body
 {
     font-size: 20px;
 }
-<<<<<<< HEAD
-#post
-{
-    background: white;
-    padding: 1em;
-=======
 #footer{
 
     background: #777;
@@ -74,5 +64,4 @@ body
     text-align: center;
     padding: 0.5em;
 
->>>>>>> a91714f350810d5cf39318fbafe6a41fab895157
 }
