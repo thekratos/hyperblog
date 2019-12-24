@@ -81,3 +81,9 @@ Comandos:
 		git stash branch "nombre de la rama": crea una nueva rama e introduce los cambios guardados en el stash
 	
 	git cherry-pick "id del commit de la rama a relaizar merge con la rama actual": agrega el commit deseado a la rama seleccionada
+	git commit --amend: permite modificar el ultimo commit creado
+	git branch -D "Rama a eliminar": borra la rama seleccionada
+	git reflog: muestra todos los cambios commit etc(muestra una especie de registro (HEAD@{0}) y con ello se puede volver a ese registro anterior)
+	git reset HEAD@{0}: colocamos la posicion a volver (gurda los datos eliminados en staging)
+	git reset --hard "Id del commit al que quiero volver": elimina todos los cambios por encima del commit seleccionado de forma permanente
+	
