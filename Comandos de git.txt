@@ -86,4 +86,17 @@ Comandos:
 	git reflog: muestra todos los cambios commit etc(muestra una especie de registro (HEAD@{0}) y con ello se puede volver a ese registro anterior)
 	git reset HEAD@{0}: colocamos la posicion a volver (gurda los datos eliminados en staging)
 	git reset --hard "Id del commit al que quiero volver": elimina todos los cambios por encima del commit seleccionado de forma permanente
-	
+
+	git grep (sirve para buscar texto introducido en un commit):
+
+		git grep -n ""Palabra clave a buscar"": busca en cada documento las palabras que tenga similitus, las muestra y tambien la linea donde se encontro
+		git grep -c ""Palabra clave a buscar"": solo muestra en cada documento la cantidad de concidencias que hay con la palabra a buscar
+
+	git log -s ""Palabra clave a buscar"": muestra los commit que tengan en su nombre la palabra a buscar
+	git shortlog -sn --all --no-merges: muestra los commits  echos por cada usuario en el repositorio
+	git config --global alias."nombre del alias" ""condigo a poner el alias, pero sin el git""
+	git blame -c "archivo a revisar": muestra quien realizo cada linea de codigo de un archivo
+	git blame "archivo a revisar" -L"numero de la linea a iniciar","linea a terminar": busca solo las lineas seleccionadas 
+	"comando a revisar" --help: muestra como funciona el comando seleccionado
+	git branch -r: muestra las ramas en el repositorio origen
+	git branch -a: muestra todas las ramas
